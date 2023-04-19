@@ -2,8 +2,8 @@ import sqlite3
 
 connection = None
 try:
-    # Connect to a DB and create a cursor
-    connection = sqlite3.connect("sql.db")
+    # Connect to a Database and create a cursor
+    connection = sqlite3.connect('Databases/sqlConnection.db')
     cursor = connection.cursor()
     print('sql.db Init')
 
