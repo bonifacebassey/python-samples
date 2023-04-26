@@ -1,1 +1,3 @@
 SQLite/.idea
+SQLite/database/__pycache__
+SQLite/database/*.db
