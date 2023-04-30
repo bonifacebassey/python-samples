@@ -1,4 +1,4 @@
-from database.dbContext import DbContext
+from dbContext import DbContext
 
 dbContext = DbContext()
 

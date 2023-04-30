@@ -1,4 +1,4 @@
-from database.dbContext import DbContext
+from dbContext import DbContext
 
 dbContext = DbContext()
 
@@ -21,7 +21,7 @@ dbContext.execute('''INSERT INTO SQLtable VALUES ('emeritus@gmail.com', 'Emeritu
 dbContext.execute('''INSERT INTO SQLtable VALUES ('spiritus@gmail.com', 'Spiritus', '33')''')
 dbContext.execute('''INSERT INTO SQLtable VALUES ('augustus@gmail.com', 'Augustus', '27')''')
 
-# Commit your changes in the database
+# Commit your changes in the src
 dbContext.commit()
 
 # Fetching all records

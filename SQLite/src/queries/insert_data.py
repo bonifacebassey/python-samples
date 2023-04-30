@@ -1,4 +1,4 @@
-from database.dbContext import DbContext
+from dbContext import DbContext
 
 dbContext = DbContext()
 
@@ -24,5 +24,5 @@ contents = dbContext.execute('''SELECT * FROM SQLtable''')
 for content in contents:
     print(content)
 
-# Commit your changes in the database
+# Commit your changes in the src
 dbContext.commit()

@@ -2,7 +2,7 @@ import sqlite3
 
 
 class DbContext:
-    __DB_LOCATION = "../database/sql.db"
+    __DB_LOCATION = "../sql.db"
 
     def __init__(self, db=None):
         self.__db_location = db if db is not None else self.__DB_LOCATION
