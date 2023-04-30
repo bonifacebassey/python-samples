@@ -21,7 +21,7 @@ dbContext.execute('''INSERT INTO SQLtable VALUES ('emeritus@gmail.com', 'Emeritu
 dbContext.execute('''INSERT INTO SQLtable VALUES ('spiritus@gmail.com', 'Spiritus', '33')''')
 dbContext.execute('''INSERT INTO SQLtable VALUES ('augustus@gmail.com', 'Augustus', '27')''')
 
-# Commit your changes in the src
+# Commit your changes
 dbContext.commit()
 
 # Fetching all records

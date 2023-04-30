@@ -24,5 +24,5 @@ contents = dbContext.execute('''SELECT * FROM SQLtable''')
 for content in contents:
     print(content)
 
-# Commit your changes in the src
+# Commit your changes
 dbContext.commit()
