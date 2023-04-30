@@ -15,6 +15,9 @@ class DbContext:
     def executemany(self, statement, values):
         return self.__cursor.executemany(statement, values)
 
+    def executescript(self, statement):
+        return self.__cursor.executescript(statement)
+
     def fetchall(self):
         return self.__cursor.fetchall()
 
